@@ -1,7 +1,7 @@
 name : learn-github-acitons
 on: [push]
 jobs:
-  check-bats-version:
+  node jest:
     runs-on : ubuntu-latest
     steps:
       - uses: actions/checkout@v3
