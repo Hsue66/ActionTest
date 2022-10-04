@@ -12,3 +12,4 @@ jobs:
       - run: npm -version
       - run: node -v
       - run: npm test
+      - run: zip -rq a.zip *
